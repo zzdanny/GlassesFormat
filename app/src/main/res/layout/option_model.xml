@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="79dp">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIKON"
+            android:id="@+id/CHECK_NIKON"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="依視路"
+            android:id="@+id/CHECK_IS"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOYA"
+            android:id="@+id/CHECK_HOYA"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OUTLOOK"
+            android:id="@+id/CHECK_TSAI"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:weightSum="1">
+
+        <CheckBox
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="1.5"
+            android:id="@+id/CHECK_15"
+            android:layout_weight="0.06"
+            android:checked="false"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="1.56"
+            android:id="@+id/CHECK_156"
+            android:layout_gravity="right"
+            android:layout_weight="0.09"
+            android:checked="false"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.61"
+            android:id="@+id/CHECK_161"
+            android:textSize="30dp"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.67"
+            android:textSize="30dp"
+            android:id="@+id/CHECK_167" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.74"
+            android:id="@+id/CHECK_174"
+            android:layout_weight="0.06"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="81dp">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="玻璃"
+            android:textSize="30dp"
+            android:id="@+id/CHECK_GLASS" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="安全"
+            android:id="@+id/CHECK_SAFE"
+            android:layout_weight="0.06"
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:weightSum="1">
+
+        <CheckBox
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="一般變色"
+            android:id="@+id/opchange"
+            android:textSize="30dp"
+            android:checked="false"
+            android:layout_weight="0.33" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全視線"
+            android:id="@+id/optrans"
+            android:textSize="30dp"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="灰色"
+            android:id="@+id/opblack"
+            android:checked="false"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="棕色"
+            android:id="@+id/opbrown"
+            android:checked="false"
+            android:textSize="30dp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="綠色"
+            android:id="@+id/opgreen"
+            android:checked="false"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="多層膜"
+            android:id="@+id/opduo"
+            android:layout_weight="0.00"
+            android:checked="false"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="抗UV"
+            android:textSize="30dp"
+            android:id="@+id/uv" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="奈米"
+            android:id="@+id/opnai"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:text="抗藍光"
+            android:id="@+id/opblue"
+            android:layout_weight="0.06"
+            android:textSize="30dp"
+            android:checked="false" />
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="鋼彈"
+        android:id="@+id/opgun"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:text="送出"
+        android:id="@+id/submit_GLASS"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.09"
+        android:textSize="40dp" />
+
+
+</LinearLayout>
